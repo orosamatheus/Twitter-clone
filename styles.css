@@ -233,9 +233,45 @@ div.wrapper-content aside.profile .followers ul li{
     flex-shrink: 0;
     margin-right: 5px;
     margin: 0 5px 10px 0;
+    flex-grow: 1;
 }
 div.wrapper-content aside.profile .followers img.av{
-    width:45px;
+    width:47px;
     height: 45px;
     border-radius: 50%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-right: 5px;
+    margin: 0 5px 10px 0;
+    align-items: center;
+    justify-content: center;
+}
+div.wrapper-content aside.profile .images ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+div.wrapper-content aside.profile .images ul li{
+    width: 80px;
+    height: 80px;
+    background: #d0d5d9;
+    border-radius: 8px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin: 0 5px 5px 0;
+}
+div.wrapper-content aside.profile .images img.im{
+    width:80px;
+    height: 80px;
+    border-radius: 8px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-right: 5px;
+    margin: 0 5px 5px 0;
+    align-items: center;
+    justify-content: center;
+
 }
