@@ -27,7 +27,7 @@ a{
      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
      position: relative;
      z-index: 1;
-     
+     width: 100%;
  }
  header#main-header .content{
     display: flex;
@@ -90,11 +90,12 @@ header#main-header div.sideHeader button{
 
 div.banner{
     height: 380px;
-    width: 100%;
+    width: auto;
     background: #3bb9e3    
 }
 div.bar{
     height: 59px;
+    width: auto;
     background: #FFF;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 }
