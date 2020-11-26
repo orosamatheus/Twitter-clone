@@ -12,6 +12,10 @@
 input, button{
     outline: 0;
 }
+a{
+    text-decoration: none;
+    color:#657786
+}
 .content{
     max-width: 1170px;
     margin: 0 auto;
@@ -154,4 +158,44 @@ div.bar .content .actions button{
     border: 1px solid #3bb9e3;
     margin-right: 20px;
 }
-    
+div.wrapper-content{
+    display: flex;
+}
+div.wrapper-content .profile .avatarImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:5px solid #FFF;
+    margin-top: -140px;
+}
+div.wrapper-content aside.profile{
+    width: 260px;
+}
+div.wrapper-content aside.profile h1{
+    font-size: 21px;
+    color: #1f2226;
+    margin-top: 10px;
+}
+div.wrapper-content aside.profile span{
+    font-size: 14px;
+    color: #53626C;
+    font-weight: 550;
+}
+div.wrapper-content aside.profile p{
+    font-size: 14px;
+    color: #1f2226;
+    margin-top: 15px;
+    font-family: 'Helvetica';
+}
+div.wrapper-content aside.profile ul{
+    list-style: none;
+    margin-top: 20px;
+}
+div.wrapper-content aside.profile li {
+    font-size: 14px;
+    list-style: none;
+    color:#657786;
+    display:flex;
+    align-items: center;
+    margin-top: 5px;
+}
